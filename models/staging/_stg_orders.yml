@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: stg_orders
+
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+
+      - name: status
+        tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - PENDING
+                  - REFUNDED
+                  - COMPLETED
+                  - CANCELLED
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_customers')
+                field: customer_id
+
+              
+
+
+      

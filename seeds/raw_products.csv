@@ -1,0 +1,21 @@
+product_id,name,category,subcategory,price,cost,stock_quantity,supplier,is_active
+1,MacBook Pro 14",Informatique,Ordinateurs,2499.99,1800.00,45,Apple,true
+2,iPhone 15,Téléphonie,Smartphones,1199.99,750.00,120,Apple,true
+3,Samsung Galaxy S24,Téléphonie,Smartphones,999.99,620.00,85,Samsung,true
+4,AirPods Pro,Audio,Écouteurs,279.99,140.00,200,Apple,true
+5,Sony WH-1000XM5,Audio,Casques,379.99,190.00,60,Sony,true
+6,iPad Air,Informatique,Tablettes,799.99,480.00,75,Apple,true
+7,Dell XPS 15,Informatique,Ordinateurs,1899.99,1300.00,30,Dell,true
+8,Logitech MX Master 3,Informatique,Périphériques,109.99,55.00,150,Logitech,true
+9,LG 27" 4K Monitor,Informatique,Écrans,649.99,380.00,40,LG,true
+10,Nintendo Switch,Jeux vidéo,Consoles,329.99,200.00,90,Nintendo,true
+11,PS5,Jeux vidéo,Consoles,549.99,390.00,25,Sony,true
+12,Kindle Paperwhite,Loisirs,Liseuses,154.99,80.00,110,Amazon,true
+13,GoPro Hero 12,Photo,Caméras,449.99,260.00,55,GoPro,true
+14,Canon EOS R50,Photo,Appareils photo,879.99,580.00,20,Canon,true
+15,Dyson V15,Maison,Aspirateurs,699.99,400.00,35,Dyson,true
+16,Philips Hue Starter,Maison,Domotique,199.99,90.00,80,Philips,true
+17,Apple Watch SE,Téléphonie,Montres connectées,299.99,170.00,95,Apple,true
+18,Anker PowerBank 26800,Accessoires,Batteries,79.99,35.00,300,Anker,true
+19,Belkin USB-C Hub,Accessoires,Câbles & Hubs,59.99,25.00,180,Belkin,true
+20,SanDisk SSD 1TB,Informatique,Stockage,109.99,60.00,220,SanDisk,false
