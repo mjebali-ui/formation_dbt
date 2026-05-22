@@ -1,0 +1,19 @@
+# .github/workflows/dbt_ci.yml
+name: dbt CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+jobs:
+  dbt-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with: {python-version: '3.11'}
+      - run: pip install dbt-core dbt-duckdb
+      - run: dbt build
+        env:
+          DBT_PROFILES_DIR: .
