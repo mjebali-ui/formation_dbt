@@ -25,5 +25,5 @@ daily_agg as (
 
 )
 
-select *
+select distinct *
 from daily_agg
